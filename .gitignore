@@ -12,6 +12,7 @@
 # WordPress
 *.log
 .htaccess
+error_log
 wp-config.php
 /projects/
 /wp-content/advanced-cache.php
@@ -25,3 +26,4 @@ wp-config.php
 /wp-content/plugins/hello.php
 /wp-content/themes/dreamseeker/cache/
 /wp-content/themes/royal_suit/cache/
+/wp-content/plugins/widgetkit/cache/
