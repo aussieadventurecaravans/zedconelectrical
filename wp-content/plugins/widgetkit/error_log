@@ -1,0 +1,2 @@
+[01-Oct-2017 23:47:36 UTC] PHP Fatal error:  Call to undefined function add_query_arg() in /home/dreamsee/public_html/projects/misaro/wp-content/plugins/widgetkit/widgetkit-config.php on line 6
+[01-Oct-2017 23:47:37 UTC] PHP Fatal error:  Class 'WP_Widget' not found in /home/dreamsee/public_html/projects/misaro/wp-content/plugins/widgetkit/widgetkit-widget.php on line 6

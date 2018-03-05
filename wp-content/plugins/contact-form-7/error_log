@@ -1,0 +1,4 @@
+[03-Jul-2017 05:28:07 UTC] PHP Fatal error:  Call to undefined function plugin_basename() in /home/dreamsee/public_html/projects/misaro/wp-content/plugins/contact-form-7/wp-contact-form-7.php on line 19
+[28-Jul-2017 17:38:40 UTC] PHP Fatal error:  Call to undefined function plugin_basename() in /home/dreamsee/public_html/projects/misaro/wp-content/plugins/contact-form-7/wp-contact-form-7.php on line 19
+[15-Sep-2017 17:16:12 UTC] PHP Fatal error:  Call to undefined function plugin_basename() in /home/dreamsee/public_html/projects/misaro/wp-content/plugins/contact-form-7/wp-contact-form-7.php on line 19
+[04-Oct-2017 08:56:01 UTC] PHP Fatal error:  Call to undefined function plugin_basename() in /home/dreamsee/public_html/projects/misaro/wp-content/plugins/contact-form-7/wp-contact-form-7.php on line 19

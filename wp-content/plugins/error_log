@@ -1,0 +1,8 @@
+[19-Apr-2017 22:44:19 UTC] PHP Fatal error:  Call to undefined function add_action() in /home/dreamsee/public_html/projects/misaro/wp-content/plugins/hello.php on line 60
+[30-Jun-2017 16:30:09 UTC] PHP Fatal error:  Call to undefined function add_action() in /home/dreamsee/public_html/projects/misaro/wp-content/plugins/hello.php on line 60
+[09-Jul-2017 15:02:01 UTC] PHP Fatal error:  Call to undefined function add_action() in /home/dreamsee/public_html/projects/misaro/wp-content/plugins/hello.php on line 60
+[26-Jul-2017 05:38:29 UTC] PHP Fatal error:  Call to undefined function add_action() in /home/dreamsee/public_html/projects/misaro/wp-content/plugins/hello.php on line 60
+[15-Sep-2017 17:16:12 UTC] PHP Fatal error:  Call to undefined function add_action() in /home/dreamsee/public_html/projects/misaro/wp-content/plugins/hello.php on line 60
+[04-Oct-2017 08:56:01 UTC] PHP Fatal error:  Call to undefined function add_action() in /home/dreamsee/public_html/projects/misaro/wp-content/plugins/hello.php on line 60
+[07-Oct-2017 11:51:55 UTC] PHP Fatal error:  Call to undefined function add_action() in /home/dreamsee/public_html/projects/misaro/wp-content/plugins/hello.php on line 60
+[19-Oct-2017 08:17:40 UTC] PHP Fatal error:  Call to undefined function add_action() in /home/dreamsee/public_html/projects/misaro/wp-content/plugins/hello.php on line 60

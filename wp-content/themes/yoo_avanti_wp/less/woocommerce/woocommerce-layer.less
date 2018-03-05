@@ -1,0 +1,137 @@
+// Copyright (C) YOOtheme GmbH, YOOtheme Proprietary Use License (http://www.yootheme.com/license) */
+
+// Additional style fixes
+// ========================================================================
+
+.woocommerce,
+.woocommerce-page {
+
+    .woocommerce-message,
+    .woocommerce-error,
+    .woocommerce-info {
+
+        // Link Color
+        a {
+            color: fade(@global-highlight-color, 80%);
+            text-decoration: underline;
+        }
+
+        a:hover { color: @global-highlight-color; }
+
+    }
+
+    .woocommerce-message {
+
+        // Button Style
+        .button {
+
+            background: @button-success-background;
+            color: @button-success-color;
+            text-decoration: none;
+
+            &:hover,
+            &:focus {
+                background: @button-success-hover-background;
+                color: @button-success-color;
+            }
+
+        }
+
+        .button:active {
+            background: @button-success-active-background;
+            color: @button-success-color;
+        }
+
+    }
+
+    .woocommerce-error {
+
+        // Button Style
+        .button {
+
+            background: @button-danger-background;
+            color: @button-danger-color;
+            text-decoration: none;
+
+            &:hover,
+            &:focus {
+                background: @button-danger-hover-background;
+                color: @button-danger-color;
+            }
+
+        }
+
+        .button:active {
+            background: @button-danger-active-background;
+            color: @button-danger-color;
+        }
+
+    }
+
+    .woocommerce-info {
+
+        // Button Style
+        .button {
+
+            background: @button-primary-background;
+            color: @button-primary-color;
+            text-decoration: none;
+
+            &:hover,
+            &:focus {
+                background: @button-primary-hover-background;
+                color: @button-primary-color;
+            }
+
+        }
+
+        .button:active {
+            background: @button-primary-active-background;
+            color: @button-primary-color;
+        }
+
+    }
+
+    // Reseting the line-height
+    form {
+
+        .form-row {
+
+            input.input-text,
+            textarea { line-height: @form-height; }
+
+        }
+
+    }
+
+    // Price Filter
+    .widget_price_filter {
+
+        .ui-slider .ui-slider-handle { top: -.25em; }
+
+        .price_slider_amount {
+
+            .button { font-size: @button-font-size; }
+
+        }
+
+    }
+
+    // Quantity
+    .quantity,
+    #content .quantity {
+
+        input.qty { width: 90px; }
+
+    }
+
+    // Buttons
+    a.button,
+    button.button,
+    input.button,
+    input[type="submit"],
+    #respond input#submit,
+    #content input.button { font-size: @button-font-size; }
+
+
+}

@@ -1,0 +1,116 @@
+// Copyright (C) YOOtheme GmbH, YOOtheme Proprietary Use License (http://www.yootheme.com/license) */
+
+//
+// Component: Block
+//
+// ========================================================================
+
+
+// Variables
+// ========================================================================
+
+@block-padding-vertical:                              @global-grid-gutter-large;
+@block-padding-vertical-large:                        60px;
+
+@block-large-padding-vertical:                        @block-padding-vertical;
+@block-large-padding-vertical-medium:                 @block-padding-vertical-large;
+@block-large-padding-vertical-large:                  120px;
+
+@block-default-background:                            @global-background;
+@block-muted-background:                              @global-light-background;
+@block-primary-background:                            @global-primary-background;
+@block-secondary-background:                          @global-secondary-background;
+
+//
+// New
+//
+
+@block-border-width:                                  @global-border-width;
+@block-border:                                        @global-border;
+@block-muted-border:                                  darken(@block-muted-background, 5%);
+@block-primary-border:                                desaturate(darken(@block-primary-background, 5%), 5%);
+@block-secondary-border:                              lighten(@block-secondary-background, 4%);
+
+@block-primary-color:                                 @global-highlight-color;
+@block-primary-muted-color:                           fade(@global-highlight-color, 40%);
+
+
+// Component
+// ========================================================================
+
+.hook-block() {}
+
+
+// Color modifier
+// ========================================================================
+
+.hook-block-default() {}
+
+.hook-block-muted() {}
+
+.hook-block-primary() {
+
+    &:not(.uk-contrast) {
+
+        color: @block-primary-color !important;
+
+        // Text
+        .uk-h1,
+        .uk-h2,
+        .uk-h3,
+        .uk-h3,
+        em,
+        code,
+        blockquote { color: @block-primary-color !important; }
+
+        // Text muted
+        .uk-h5,
+        .uk-h6,
+        .uk-text-muted,
+        blockquote::before,
+        small,
+        cite { color: @block-primary-muted-color !important; }
+
+        .uk-text-primary { color: @global-primary-link-color !important;}
+
+        // Hyperlink
+        > a:not([class]),
+        > :not([class*='uk-nav']) a:not([class]) {
+
+            color: @global-primary-link-color;
+
+            &:hover { color: @global-primary-link-hover-color; }
+
+        }
+
+        // Button Link
+        .uk-button-link { color: @global-primary-link-color; }
+        .uk-button-link:hover { color: @global-primary-link-hover-color; }
+        .uk-button-link:focus { color: @block-primary-color; }
+
+        // Panel title
+        .uk-panel-title { color: @block-primary-color !important; }
+
+    }
+
+}
+
+
+// Miscellaneous
+// ========================================================================
+
+.hook-block-misc() {
+
+    // Adding a border when two blocks of the same style follow each other
+    .uk-block-default + .uk-block-default,
+    .uk-block-muted + .uk-block-muted,
+    .uk-block-primary + .uk-block-primary,
+    .uk-block-secondary + .uk-block-secondary { border-top: @block-border-width solid @block-border; }
+
+    .uk-block-muted + .uk-block-muted { border-color: @block-muted-border; }
+
+    .uk-block-primary + .uk-block-primary { border-color: @block-primary-border; }
+
+    .uk-block-secondary + .uk-block-secondary { border-color: @block-secondary-border; }
+
+}

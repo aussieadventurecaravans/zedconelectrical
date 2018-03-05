@@ -1,0 +1,668 @@
+/* Copyright (C) YOOtheme GmbH, YOOtheme Proprietary Use License (http://www.yootheme.com/license) */
+@import 'https://fonts.googleapis.com/css?family=Montserrat';
+/* ========================================================================
+   Use this file to add custom CSS easily
+ ========================================================================== */
+ .uk-navbar-nav > li > a {color:#ffffff;}
+ @import 'https://fonts.googleapis.com/css?family=Crimson+Text:400,600,400italic';
+.wpcf7 input[type="checkbox"], .wpcf7 input[type="radio"] {margin-top:5px;}
+.uk-button-primary {
+  background-color: #000;
+  color: #ffffff;
+}
+h6, .uk-h6 {
+    letter-spacing: 1px;
+    line-height: 20px;
+    font-weight: normal;
+}
+.woocommerce input[type="submit"] {font-size: inherit;
+    font-family: inherit;
+    margin: 0;
+    left: auto;
+    cursor: pointer;
+    position: relative;
+    overflow: visible;
+    text-decoration: none;
+    white-space: nowrap;
+    display: inline-block;
+    border: none;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    line-height: 40px !important;
+    min-height: 40px;
+    background: #222222;
+    color: #ffffff;
+    padding: 0 33px;
+    border-radius: 0;
+    overflow: hidden;
+    z-index: 1;
+    font-family: 'Montserrat', Helvetica, Arial, sans-serif;
+    font-weight: normal;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    -webkit-transition: all 0.12s ease-in-out;
+    transition: all 0.12s ease-in-out;
+    -webkit-backface-visibility: hidden;font-size:11px}
+    
+input {font-size: inherit;
+    font-family: inherit;
+    line-height: normal;
+    vertical-align: top;
+    position: relative;
+    border-radius: 0;
+    font-family: 'Montserrat', Helvetica, Arial, sans-serif;
+    font-size: 11px;
+    font-weight: inherit;
+    text-transform: uppercase;
+    letter-spacing: 2px;} .mail-chimp {border: 0;
+    padding: 12px 10px;
+    width: 200px;}
+ .uk-cover-background {background-size: contain; background-position: 50% 0%;}
+ .tm-slideshow-content-panel h2, .uk-h2 {color: #fff;font-size: 60px;line-height: 60px;}
+ body, html {font-family: 'Crimson Text', Times New Roman, serif; font-size:17px;}
+ h1, h2, h3, h4, h5, h6 {font-family: 'Crimson Text', Times New Roman, serif;}
+ .woocommerce .woocommerce-breadcrumb, .woocommerce-page .woocommerce-breadcrumb {font-size: 15px;}
+ 
+/* ========================================================================
+   Component: Form
+ ========================================================================== */
+/*
+ * 1. Define consistent box sizing.
+ *    Default is `content-box` with following exceptions set to `border-box`
+ *    `button`, `select`, `input[type="checkbox"]` and `input[type="radio"]`
+ *    `input[type="search"]` in Chrome, Safari and Opera
+ *    `input[type="color"]` in Firefox
+ * 2. Address margins set differently in Firefox/IE and Chrome/Safari/Opera.
+ * 3. Remove `border-radius` in iOS.
+ * 4. Correct `font` properties and `color` not being inherited.
+ */
+.wpcf7 input,
+.wpcf7 select,
+.wpcf7 textarea {
+  /* 1 */
+  box-sizing: border-box;
+  /* 2 */
+  margin: 0;
+  /* 3 */
+  border-radius: 0;
+  /* 4 */
+  font: inherit;
+  color: inherit;
+}
+/*
+ * Address inconsistent `text-transform` inheritance which is only inherit in Firefox
+ */
+.wpcf7 select {
+  text-transform: none;
+}
+/*
+ * 1. Correct `font` properties not being inherited.
+ * 2. Don't inherit the `font-weight` and use `bold` instead.
+ * NOTE: Both declarations don't work in Chrome, Safari and Opera.
+ */
+.wpcf7 optgroup {
+  /* 1 */
+  font: inherit;
+  /* 2 */
+  font-weight: bold;
+}
+/*
+ * Removes inner padding and border in Firefox 4+.
+ */
+.wpcf7 input::-moz-focus-inner {
+  border: 0;
+  padding: 0;
+}
+/*
+ * Removes excess padding in IE 8/9/10.
+ */
+.wpcf7 input[type="checkbox"],
+.wpcf7 input[type="radio"] {
+  padding: 0;
+}
+/*
+ * Improves consistency of cursor style for clickable elements
+ */
+.wpcf7 input[type="checkbox"]:not(:disabled),
+.wpcf7 input[type="radio"]:not(:disabled) {
+  cursor: pointer;
+}
+/*
+ * Remove default style in iOS.
+ */
+.wpcf7 textarea,
+.wpcf7 input:not([type]),
+.wpcf7 input[type="text"],
+.wpcf7 input[type="password"],
+.wpcf7 input[type="email"],
+.wpcf7 input[type="url"],
+.wpcf7 input[type="search"],
+.wpcf7 input[type="tel"],
+.wpcf7 input[type="number"],
+.wpcf7 input[type="datetime"] {
+  -webkit-appearance: none;
+}
+/*
+ * Remove inner padding and search cancel button in Chrome, Safari and Opera on OS X.
+ */
+.wpcf7 input[type="search"]::-webkit-search-cancel-button,
+.wpcf7 input[type="search"]::-webkit-search-decoration {
+  -webkit-appearance: none;
+}
+/*
+ * Fix the cursor style for Chrome's increment/decrement buttons. For certain
+ * `font-size` values of the `input`, it causes the cursor style of the
+ * decrement button to change from `default` to `text`.
+ */
+.wpcf7 input[type="number"]::-webkit-inner-spin-button,
+.wpcf7 input[type="number"]::-webkit-outer-spin-button {
+  height: auto;
+}
+/*
+ * Define consistent border, margin, and padding.
+ */
+.wpcf7 fieldset {
+  border: none;
+  margin: 0;
+  padding: 0;
+}
+/*
+ * 1. Remove default vertical scrollbar in IE 8/9/10/11.
+ * 2. Improve readability and alignment in all browsers.
+ */
+.wpcf7 textarea {
+  /* 1 */
+  overflow: auto;
+  /* 2 */
+  vertical-align: top;
+}
+/*
+ * Removes placeholder transparency in Firefox.
+ */
+.wpcf7 ::-moz-placeholder {
+  opacity: 1;
+}
+/*
+ * Removes `box-shadow` for invalid controls in Firefox.
+ */
+.wpcf7 :invalid {
+  box-shadow: none;
+}
+/*
+ * Vertical alignment
+ */
+.wpcf7 input:not([type="radio"]):not([type="checkbox"]),
+.wpcf7 select {
+  vertical-align: middle;
+}
+/* Style
+ ========================================================================== */
+/*
+ * Remove margin from the last-child
+ */
+.wpcf7 > :last-child {
+  margin-bottom: 0;
+}
+/*
+ * Controls
+ * Except for `range`, `radio`, `checkbox`, `file`, `submit`, `reset`, `button` and `image`
+ * 1. Must be `height` because `min-height` is not working in OSX
+ * 2. Responsiveness: Sets a maximum width relative to the parent to scale on narrower viewports
+ * 3. Vertical `padding` needed for `select` elements in Firefox
+ * 4. Style
+ */
+.wpcf7 select,
+.wpcf7 textarea,
+.wpcf7 input:not([type]),
+.wpcf7 input[type="text"],
+.wpcf7 input[type="password"],
+.wpcf7 input[type="datetime"],
+.wpcf7 input[type="datetime-local"],
+.wpcf7 input[type="date"],
+.wpcf7 input[type="month"],
+.wpcf7 input[type="time"],
+.wpcf7 input[type="week"],
+.wpcf7 input[type="number"],
+.wpcf7 input[type="email"],
+.wpcf7 input[type="url"],
+.wpcf7 input[type="search"],
+.wpcf7 input[type="tel"],
+.wpcf7 input[type="color"] {
+  /* 1 */
+  height: 40px;
+  /* 2 */
+  max-width: 100%;
+  /* 3 */
+  padding: 5px 10px;
+  /* 4 */
+  border: 1px solid #efefef;
+  background: #ffffff;
+  color: #666666;
+  -webkit-transition: all linear 0.2s;
+  transition: all linear 0.2s;
+  position: relative;
+  border-radius: 0;
+  font-family: 'Montserrat', Helvetica, Arial, sans-serif;
+  font-size: 11px;
+  font-weight: inherit;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+.wpcf7 select:focus,
+.wpcf7 textarea:focus,
+.wpcf7 input:not([type]):focus,
+.wpcf7 input[type="text"]:focus,
+.wpcf7 input[type="password"]:focus,
+.wpcf7 input[type="datetime"]:focus,
+.wpcf7 input[type="datetime-local"]:focus,
+.wpcf7 input[type="date"]:focus,
+.wpcf7 input[type="month"]:focus,
+.wpcf7 input[type="time"]:focus,
+.wpcf7 input[type="week"]:focus,
+.wpcf7 input[type="number"]:focus,
+.wpcf7 input[type="email"]:focus,
+.wpcf7 input[type="url"]:focus,
+.wpcf7 input[type="search"]:focus,
+.wpcf7 input[type="tel"]:focus,
+.wpcf7 input[type="color"]:focus {
+  border-color: #131313;
+  outline: 0;
+  background: #ffffff;
+  color: #222222;
+}
+.wpcf7 select:disabled,
+.wpcf7 textarea:disabled,
+.wpcf7 input:not([type]):disabled,
+.wpcf7 input[type="text"]:disabled,
+.wpcf7 input[type="password"]:disabled,
+.wpcf7 input[type="datetime"]:disabled,
+.wpcf7 input[type="datetime-local"]:disabled,
+.wpcf7 input[type="date"]:disabled,
+.wpcf7 input[type="month"]:disabled,
+.wpcf7 input[type="time"]:disabled,
+.wpcf7 input[type="week"]:disabled,
+.wpcf7 input[type="number"]:disabled,
+.wpcf7 input[type="email"]:disabled,
+.wpcf7 input[type="url"]:disabled,
+.wpcf7 input[type="search"]:disabled,
+.wpcf7 input[type="tel"]:disabled,
+.wpcf7 input[type="color"]:disabled {
+  border-color: #efefef;
+  background-color: rgba(0, 0, 0, 0);
+  color: #aaaaaa;
+}
+/*
+ * Placeholder
+ */
+.wpcf7 :-ms-input-placeholder {
+  color: #aaaaaa !important;
+}
+.wpcf7 ::-moz-placeholder {
+  color: #aaaaaa;
+}
+.wpcf7 ::-webkit-input-placeholder {
+  color: #aaaaaa;
+}
+.wpcf7 :disabled:-ms-input-placeholder {
+  color: #aaaaaa !important;
+}
+.wpcf7 :disabled::-moz-placeholder {
+  color: #aaaaaa;
+}
+.wpcf7 :disabled::-webkit-input-placeholder {
+  color: #aaaaaa;
+}
+/*
+ * Legend
+ * 1. Behave like block element
+ * 2. Correct `color` not being inherited in IE 8/9/10/11.
+ * 3. Remove padding
+ * 4. `margin-bottom` is not working in Safari and Opera.
+ *    Using `padding` and :after instead to create the border
+ * 5. Style
+ */
+.wpcf7 legend {
+  /* 1 */
+  width: 100%;
+  /* 2 */
+  border: 0;
+  /* 3 */
+  padding: 0;
+  /* 4 */
+  padding-bottom: 25px;
+  /* 5 */
+  font-size: 19px;
+  line-height: 32px;
+}
+/*
+ * 1. Fixes IE9
+ */
+.wpcf7 legend:after {
+  content: "";
+  display: block;
+  border-bottom: 1px solid #efefef;
+  /* 1 */
+  width: 100%;
+}
+/* Size modifiers
+ * Higher specificity needed to override defaults
+ ========================================================================== */
+select.wpcf7-small,
+textarea.wpcf7-small,
+input[type].wpcf7-small,
+input:not([type]).wpcf7-small {
+  height: 35px;
+  padding: 5px 10px;
+  font-size: 10px;
+}
+select.wpcf7-large,
+textarea.wpcf7-large,
+input[type].wpcf7-large,
+input:not([type]).wpcf7-large {
+  height: 50px;
+  padding: 5px 10px;
+  font-size: 13px;
+}
+/* Reset height
+ * Must be after size modifiers
+ ========================================================================== */
+.wpcf7 textarea,
+.wpcf7 select[multiple],
+.wpcf7 select[size] {
+  height: auto;
+}
+/* Validation states
+ * Using !important to keep the selector simple
+ ========================================================================== */
+/*
+ * Error state
+ */
+.wpcf7-danger {
+  border-color: #d47371 !important;
+  background: #ffffff !important;
+  color: #c94745 !important;
+}
+/*
+ * Success state
+ */
+.wpcf7-success {
+  border-color: #b3c594 !important;
+  background: #ffffff !important;
+  color: #b3c594 !important;
+}
+/* Style modifiers
+ * Using !important to keep the selector simple
+ ========================================================================== */
+/*
+ * Blank form
+ */
+.wpcf7-blank {
+  border-color: transparent !important;
+  border-style: dashed !important;
+  background: none !important;
+}
+.wpcf7-blank:focus {
+  border-color: #131313 !important;
+}
+/* Size sub-modifiers
+ ========================================================================== */
+/*
+ * Fixed widths
+ * Different widths for mini sized `input` and `select` elements
+ */
+input.wpcf7-width-mini {
+  width: 80px;
+}
+select.wpcf7-width-mini {
+  width: 105px;
+}
+.wpcf7-width-small {
+  width: 130px;
+}
+.wpcf7-width-medium {
+  width: 200px;
+}
+.wpcf7-width-large {
+  width: 500px;
+}
+/* Sub-objects: `wpcf7-row`
+ * Groups labels and controls in rows
+ ========================================================================== */
+/*
+ * Micro clearfix
+ * Needed for `wpcf7-horizontal` modifier
+ */
+.wpcf7-row:before,
+.wpcf7-row:after {
+  content: "";
+  display: table;
+}
+.wpcf7-row:after {
+  clear: both;
+}
+/*
+ * Vertical gutter
+ */
+.wpcf7-row + .wpcf7-row {
+  margin-top: 25px;
+}
+/* Help text
+ * Sub-object: `wpcf7-help-inline`, `wpcf7-help-block`
+ ========================================================================== */
+.wpcf7-help-inline {
+  display: inline-block;
+  margin: 0 0 0 10px;
+}
+.wpcf7-help-block {
+  margin: 5px 0 0 0;
+}
+/* Controls content
+ * Sub-object: `wpcf7-controls`, `wpcf7-controls-condensed`
+ ========================================================================== */
+/*
+ * Remove margins
+ */
+.wpcf7-controls > :first-child {
+  margin-top: 0;
+}
+.wpcf7-controls > :last-child {
+  margin-bottom: 0;
+}
+/*
+ * Group controls and text into blocks with a small spacing between blocks
+ */
+.wpcf7-controls-condensed {
+  margin: 5px 0;
+}
+/* Modifier: `wpcf7-stacked`
+ * Requires sub-object: `wpcf7-label`
+ ========================================================================== */
+.wpcf7-stacked .wpcf7-label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+/* Modifier: `wpcf7-horizontal`
+ * Requires sub-objects: `wpcf7-label`, `wpcf7-controls`
+ ========================================================================== */
+/* Tablet portrait and smaller */
+@media (max-width: 959px) {
+  /* Behave like `wpcf7-stacked` */
+  .wpcf7-horizontal .wpcf7-label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+}
+/* Desktop and bigger */
+@media (min-width: 960px) {
+  .wpcf7-horizontal .wpcf7-label {
+    width: 200px;
+    margin-top: 5px;
+    float: left;
+  }
+  .wpcf7-horizontal .wpcf7-controls {
+    margin-left: 215px;
+  }
+  /* Better vertical alignment if controls are checkboxes and radio buttons with text */
+  .wpcf7-horizontal .wpcf7-controls-text {
+    padding-top: 5px;
+  }
+}
+/* Sub-object: `wpcf7-icon`
+ ========================================================================== */
+/*
+ * 1. Container width fits its content
+ * 2. Create position context
+ * 3. Prevent `inline-block` consequences
+ */
+.wpcf7-icon {
+  /* 1 */
+  display: inline-block;
+  /* 2 */
+  position: relative;
+  /* 3 */
+  max-width: 100%;
+}
+/*
+ * 1. Make form element clickable through icon
+ */
+.wpcf7-icon > [class*='uk-icon-'] {
+  position: absolute;
+  top: 50%;
+  width: 40px;
+  margin-top: -8px;
+  font-size: 15px;
+  color: #aaaaaa;
+  text-align: center;
+  /* 1 */
+  pointer-events: none;
+}
+.wpcf7-icon:not(.wpcf7-icon-flip) > input {
+  padding-left: 40px !important;
+}
+/*
+ * Sub-modifier: `wpcf7-icon-flip`
+ */
+.wpcf7-icon-flip > [class*='uk-icon-'] {
+  right: 0;
+}
+.wpcf7-icon-flip > input {
+  padding-right: 40px !important;
+}
+.wpcf7 textarea,
+.wpcf7 select {
+  padding: 10px;
+  border-radius: 0;
+}
+.wpcf7-label + input,
+.wpcf7-label + textarea {
+  margin-top: 5px !important;
+}
+select.wpcf7-small,
+textarea.wpcf7-small,
+input[type].wpcf7-small,
+input:not([type]).wpcf7-small {
+  border-radius: 0;
+}
+select.wpcf7-large,
+textarea.wpcf7-large,
+input[type].wpcf7-large,
+input:not([type]).wpcf7-large {
+  border-radius: 0;
+}
+.wpcf7-icon > [class*='uk-icon-'] {
+  z-index: 1;
+}
+.wpcf7 input:-webkit-autofill {
+  -webkit-box-shadow: 0 0 0px 40px #ffffff inset !important;
+  border-color: #efefef !important;
+  -webkit-text-fill-color: #aaaaaa;
+}
+.wpcf7 input:-webkit-autofill:focus {
+  -webkit-box-shadow: 0 0 0px 40px #ffffff inset !important;
+  border-color: #131313 !important;
+  -webkit-text-fill-color: #222222;
+}
+.uk-button:not(:disabled) {
+    cursor: pointer;
+    font-family: 'Montserrat', Helvetica, Arial, sans-serif;
+    font-weight: normal;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    line-height: 40px;
+    min-height: 40px;
+    font-size: 11px;
+    color: #fff;
+}
+.wpcf7 .uk-grid  {margin-top:0;}
+.woocommerce select, .woocommerce-page select, .woocommerce textarea, .woocommerce-page textarea, .woocommerce input:not([type]), .woocommerce-page input:not([type]), .woocommerce input[type="text"], .woocommerce-page input[type="text"], .woocommerce input[type="password"], .woocommerce-page input[type="password"], .woocommerce input[type="datetime"], .woocommerce-page input[type="datetime"], .woocommerce input[type="datetime-local"], .woocommerce-page input[type="datetime-local"], .woocommerce input[type="date"], .woocommerce-page input[type="date"], .woocommerce input[type="month"], .woocommerce-page input[type="month"], .woocommerce input[type="time"], .woocommerce-page input[type="time"], .woocommerce input[type="week"], .woocommerce-page input[type="week"], .woocommerce input[type="number"], .woocommerce-page input[type="number"], .woocommerce input[type="email"], .woocommerce-page input[type="email"], .woocommerce input[type="url"], .woocommerce-page input[type="url"], .woocommerce input[type="search"], .woocommerce-page input[type="search"], .woocommerce input[type="tel"], .woocommerce-page input[type="tel"], .woocommerce input[type="color"], .woocommerce-page input[type="color"] {
+    font-size: inherit;
+    font-family: inherit;
+    line-height: normal;
+    vertical-align: top;
+    position: relative;
+    border-radius: 0;
+    font-family: 'Montserrat', Helvetica, Arial, sans-serif;
+    font-size: 11px;
+    font-weight: inherit;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+.uk-icon-small {
+  font-size: 100%;
+  vertical-align: -10%;
+}
+.woocommerce nav.woocommerce-pagination ul li a, .woocommerce-page nav.woocommerce-pagination ul li a, .woocommerce #content nav.woocommerce-pagination ul li a, .woocommerce-page #content nav.woocommerce-pagination ul li a {
+    background: rgba(0, 0, 0, 0);
+    color: #222222;
+    position: relative;
+}
+a, .uk-link {
+    color: #666666;
+    text-decoration: none;
+    cursor: pointer;
+}
+a:hover,
+.uk-link:hover {
+  color: #000000;
+  text-decoration: underline;
+}
+.woocommerce a.button.alt, .woocommerce-page a.button.alt, .woocommerce button.button.alt, .woocommerce-page button.button.alt, .woocommerce input.button.alt, .woocommerce-page input.button.alt, .woocommerce input[type="submit"].alt, .woocommerce-page input[type="submit"].alt, .woocommerce #respond input#submit.alt, .woocommerce-page #respond input#submit.alt, .woocommerce #content input.button.alt, .woocommerce-page #content input.button.alt {background: #222222;
+    color: #ffffff;}
+    
+    .woocommerce .cart-collaterals .cross-sells, .woocommerce-page .cart-collaterals .cross-sells {
+    width: 48%;
+    float: left;
+    display: none;
+}
+.related{clear:both;}
+html .uk-nav.uk-nav-offcanvas > li.uk-active > a {
+    background: none;
+    color: #9d9d9d;
+    box-shadow: none;
+}
+.uk-nav-offcanvas ul a {
+    color: #fff;
+}
+.uk-nav-offcanvas > li > a {
+    color: #fff;
+    padding: 10px 15px;
+    margin-bottom: 5px;
+    background-color: rgba(0, 0, 0, 0);
+    font-family: 'Montserrat', Helvetica, Arial, sans-serif;
+    font-size: 11px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    -webkit-transition: all 0.12s ease-in-out;
+    transition: all 0.12s ease-in-out;
+}
+.uk-nav-offcanvas > .uk-open > a,
+html:not(.uk-touch) .uk-nav-offcanvas > li > a:hover,
+html:not(.uk-touch) .uk-nav-offcanvas > li > a:focus {
+  background: none;
+  color: #9d9d9d;
+  /* 2 */
+  outline: none;
+  box-shadow: none;
+}
